@@ -71,7 +71,7 @@ Arrays.sort(arr);
 
 System.out.println("\n(Array has been sorted for Binary Search)");
 System.out.println("Sorted Array: " + Arrays.toString(arr));
-System.out.println("\n--- Iterative Binary Search Result ---");
+System.out.println("\n--- Simple Binary Search Result ---");
 int binaryResult = binarySearchSimple(arr, target);
 
 if (binaryResult != -1) {
